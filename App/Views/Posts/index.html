@@ -3,5 +3,10 @@
 {% block title %}Posts{% endblock %}
 
 {% block body %}
-<h1>Hello Posts Page!</h1>
+<ul>
+  {% for post in posts %}
+    <h1>{{ post.title }}</h1>
+    <p>{{ post.content }}</p>
+  {% endfor %}
+</ul>
 {% endblock %}

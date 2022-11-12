@@ -2,12 +2,14 @@
   namespace App\Controllers; 
   
   use \Core\View;
+  use \App\Models\Posts as PostsModel; 
   
   class Posts extends \Core\Controller {
     public function indexAction() {
+      $posts = PostsModel::getALl();
+
       View::renderTemplate('Posts/index.html', [
-        'name' => 'Mohammad Salah',
-        'colors' => ['Blue', 'White', 'Red']
+        'posts' => $posts
       ]);
     }
 
