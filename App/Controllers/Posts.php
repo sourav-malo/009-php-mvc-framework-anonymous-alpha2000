@@ -1,9 +1,14 @@
 <?php
   namespace App\Controllers; 
-
+  
+  use \Core\View;
+  
   class Posts extends \Core\Controller {
     public function indexAction() {
-      echo 'Hello from the index action in the Posts controller';
+      View::renderTemplate('Posts/index.html', [
+        'name' => 'Mohammad Salah',
+        'colors' => ['Blue', 'White', 'Red']
+      ]);
     }
 
     public function addNewAction() {
