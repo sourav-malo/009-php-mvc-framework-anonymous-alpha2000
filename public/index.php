@@ -1,13 +1,13 @@
 <?php
   require '../vendor/autoload.php';
-  
-  spl_autoload_register(function($class){
-    $root = dirname(__DIR__);
-    $file = $root . '/' . str_replace('\\', '/', $class) . '.php';
-    if(is_readable($file)) {
-      require_once $root . '/' . str_replace('\\', '/', $class) . '.php';
-    }
-  });
+
+  // spl_autoload_register(function($class){
+  //   $root = dirname(__DIR__);
+  //   $file = $root . '/' . str_replace('\\', '/', $class) . '.php';
+  //   if(is_readable($file)) {
+  //     require_once $root . '/' . str_replace('\\', '/', $class) . '.php';
+  //   }
+  // });
 
   $router = new Core\Router();
   
