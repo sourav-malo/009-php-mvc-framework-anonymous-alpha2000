@@ -1,0 +1,29 @@
+[14-Nov-2022 13:39:38 Europe/Berlin] Uncaught Exception: Exception with message: No route matched
+Stack Trace: #0 C:\xampp\htdocs\009-php-mvc-framework-anonymous-alpha2000\public\index.php(23): Core\Router->dispatch('products')
+#1 {main}
+Thrown in C:\xampp\htdocs\009-php-mvc-framework-anonymous-alpha2000\Core\Router.php on line 65
+[14-Nov-2022 13:39:38 Europe/Berlin] Uncaught Exception: Exception with message: No route matched
+Stack Trace: #0 C:\xampp\htdocs\009-php-mvc-framework-anonymous-alpha2000\public\index.php(23): Core\Router->dispatch('favicon.ico')
+#1 {main}
+Thrown in C:\xampp\htdocs\009-php-mvc-framework-anonymous-alpha2000\Core\Router.php on line 65
+[14-Nov-2022 13:44:42 Europe/Berlin] Uncaught Exception: Exception with message: No route matched
+Stack Trace: #0 C:\xampp\htdocs\009-php-mvc-framework-anonymous-alpha2000\public\index.php(23): Core\Router->dispatch('products')
+#1 {main}
+Thrown in C:\xampp\htdocs\009-php-mvc-framework-anonymous-alpha2000\Core\Router.php on line 65
+[14-Nov-2022 13:44:42 Europe/Berlin] Uncaught Exception: Exception with message: No route matched
+Stack Trace: #0 C:\xampp\htdocs\009-php-mvc-framework-anonymous-alpha2000\public\index.php(23): Core\Router->dispatch('favicon.ico')
+#1 {main}
+Thrown in C:\xampp\htdocs\009-php-mvc-framework-anonymous-alpha2000\Core\Router.php on line 65
+[14-Nov-2022 13:50:55 Europe/Berlin] Uncaught Exception: Exception with message: No route matched
+Stack Trace: #0 C:\xampp\htdocs\009-php-mvc-framework-anonymous-alpha2000\public\index.php(23): Core\Router->dispatch('products')
+#1 {main}
+Thrown in C:\xampp\htdocs\009-php-mvc-framework-anonymous-alpha2000\Core\Router.php on line 65
+[14-Nov-2022 13:50:59 Europe/Berlin] Uncaught Exception: Exception with message: No route matched
+Stack Trace: #0 C:\xampp\htdocs\009-php-mvc-framework-anonymous-alpha2000\public\index.php(23): Core\Router->dispatch('product')
+#1 {main}
+Thrown in C:\xampp\htdocs\009-php-mvc-framework-anonymous-alpha2000\Core\Router.php on line 65
+[14-Nov-2022 13:51:11 Europe/Berlin] Uncaught Exception: Exception with message: Method indeuActionnot found in controller App\Controllers\Posts
+Stack Trace: #0 C:\xampp\htdocs\009-php-mvc-framework-anonymous-alpha2000\Core\Router.php(57): Core\Controller->__call('indeuAction', Array)
+#1 C:\xampp\htdocs\009-php-mvc-framework-anonymous-alpha2000\public\index.php(23): Core\Router->dispatch('posts/indeu')
+#2 {main}
+Thrown in C:\xampp\htdocs\009-php-mvc-framework-anonymous-alpha2000\Core\Controller.php on line 20
